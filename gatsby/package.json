@@ -1,0 +1,26 @@
+{
+  "name": "gatsby-serverless",
+  "version": "1.0.0",
+  "description": "gatsby-serverless",
+  "main": "gatsby-browser.js",
+  "dependencies": {
+    "gatsby": "^2.28.1",
+    "gatsby-image": "^2.7.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "styled-components": "^5.2.1"
+  },
+  "scripts": {
+    "//": "⁉️ Hey! This might look confusing but allow me to explain. The command we want to run is called gatsby build. But because we want to use es modules with gatsby, we use a package called esm. One way to require it is to set the NODE_OPTIONS environmental variable to -r esm. Finally to make this work for windows users, we use the cross-env package. Hopefully once Node es modules are stable, we can bring this back to simple gatsby build",
+    "build": "cross-env NODE_OPTIONS=\"-r esm\" gatsby build",
+    "develop": "cross-env NODE_OPTIONS=\"-r esm\" gatsby develop",
+    "start": "npm run develop",
+    "serve": "cross-env NODE_OPTIONS=\"-r esm\" gatsby serve",
+    "clean": "gatsby clean",
+    "netlify": "netlify dev",
+    "prebuild": "netlify-lambda install"
+  },
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
+}
