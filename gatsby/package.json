@@ -20,7 +20,11 @@
     "netlify": "netlify dev",
     "prebuild": "netlify-lambda install"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com//slicks-slices"
+  },
   "devDependencies": {},
-  "author": "",
+  "author": "Daniel Osornio",
   "license": "ISC"
 }
