@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/pages/cart.js"],"names":["CartPage"],"mappings":"2FAAA,gCAUeA,UARf,WACE,OACE,6BACE","file":"component---src-pages-cart-js-61fe6f0d415d2c9a2786.js","sourcesContent":["import React from \"react\";\n\nfunction CartPage() {\n  return (\n    <div>\n      <h1>Home page</h1>\n    </div>\n  );\n}\n\nexport default CartPage;\n"],"sourceRoot":""}

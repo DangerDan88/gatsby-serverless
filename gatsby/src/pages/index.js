@@ -1,4 +1,5 @@
 import React from "react";
+import Nav from "../components/Nav";
 
 function HomePage() {
   return (
@@ -9,3 +10,5 @@ function HomePage() {
 }
 
 export default HomePage;
+
+// figure out how to not push .gitignore file

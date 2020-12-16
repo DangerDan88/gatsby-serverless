@@ -4,8 +4,7 @@ import Nav from "./Nav";
 export default function Layout({ children }) {
   return (
     <div>
-      <Nav />
-      {children}
+      <Nav /> {children}
     </div>
   );
 }
