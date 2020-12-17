@@ -50,15 +50,12 @@ export default function Nav() {
           <Link to="/">Home</Link>
         </li>
         <li>
-          {" "}
           <Link to="/store">Store</Link>
         </li>
         <li>
-          {" "}
           <Link to="/">LOGO</Link>
         </li>
         <li>
-          {" "}
           <Link to="/cart">View Cart</Link>
         </li>
       </ul>
