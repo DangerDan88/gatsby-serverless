@@ -13,29 +13,28 @@ const SiteBorderStyles = styled.div`
   padding: 5px;
   padding: clamp(5px, 1vw, 25px);
   box-shadow: 0 0 px 3px rgba(0, 0, 0, 0.044);
-  border: 5px solid white;
+  border: 5px solid greenyellow;
   @media (max-width: 1100px) {
     margin-left: 1.5rem;
     margin-right: 1.5rem;
   }
 `;
 
-const ContentStyles = styled.div`
-  background: white;
-  padding: 2rem;
+const SiteHeader = styled.div`
+  font-size: 3rem;
+  text-align: center;
+  padding-top: 1rem;
 `;
 
 export default function Layout({ children }) {
   return (
     <div>
       <GlobalStyles />
-      <ContentStyles>
-        {" "}
-        <SiteBorderStyles>
-          <Nav /> {children}
-          <Footer />
-        </SiteBorderStyles>
-      </ContentStyles>
+      <SiteHeader>Danger Clothing</SiteHeader>
+      <SiteBorderStyles>
+        <Nav /> {children}
+        <Footer />
+      </SiteBorderStyles>
     </div>
   );
 }

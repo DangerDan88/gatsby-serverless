@@ -1,4 +1,5 @@
 import { createGlobalStyle } from "styled-components";
+import PermanentMarker from "../fonts/PermanentMarker-Regular.woff";
 
 const GlobalStyles = createGlobalStyle`
  :root {
@@ -8,6 +9,13 @@ const GlobalStyles = createGlobalStyle`
     --white: #fff;
     --grey: #efefef;
   }
+
+  @font-face {
+        font-family: 'Font Name';
+        src: local('Font Name'), local('FontName'),
+        url(${PermanentMarker}) format('woff');
+        font-style: normal;
+    }
   html {
     background-size: 450px;
     background-attachment: fixed;
@@ -18,6 +26,7 @@ const GlobalStyles = createGlobalStyle`
     font-size: 2rem;
     max-width: 1000 px;
     justify-content: center;
+
   }
 
   fieldset {
@@ -69,11 +78,6 @@ const GlobalStyles = createGlobalStyle`
     max-width: 100%;
   }
 
-  .tilt {
-    transform: rotate(-2deg);
-    position: relative;
-    display: inline-block;
-  }
 
 `;
 
