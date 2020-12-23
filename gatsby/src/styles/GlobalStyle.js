@@ -1,5 +1,4 @@
 import { createGlobalStyle } from "styled-components";
-import PermanentMarker from "../fonts/PermanentMarker-Regular.woff";
 
 const GlobalStyles = createGlobalStyle`
  :root {
@@ -10,12 +9,7 @@ const GlobalStyles = createGlobalStyle`
     --grey: #efefef;
   }
 
-  @font-face {
-        font-family: 'Font Name';
-        src: local('Font Name'), local('FontName'),
-        url(${PermanentMarker}) format('woff');
-        font-style: normal;
-    }
+
   html {
     background-size: 450px;
     background-attachment: fixed;

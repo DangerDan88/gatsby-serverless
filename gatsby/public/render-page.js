@@ -32850,6 +32850,17 @@ function v(){return(v=Object.assign||function(e){for(var t=1;t<arguments.length;
 
 /***/ }),
 
+/***/ "./src/assets/fonts/marker.woff":
+/*!**************************************!*\
+  !*** ./src/assets/fonts/marker.woff ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/marker-e751cf63bb97cb218060e8ebbf0c49d7.woff";
+
+/***/ }),
+
 /***/ "./src/components/Footer.js":
 /*!**********************************!*\
   !*** ./src/components/Footer.js ***!
@@ -32860,11 +32871,27 @@ function v(){return(v=Object.assign||function(e){for(var t=1;t<arguments.length;
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Footer; });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _babel_runtime_helpers_esm_taggedTemplateLiteralLoose__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/taggedTemplateLiteralLoose */ "./node_modules/@babel/runtime/helpers/esm/taggedTemplateLiteralLoose.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.esm.js");
 
+
+function _templateObject() {
+  var data = Object(_babel_runtime_helpers_esm_taggedTemplateLiteralLoose__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  max-width: 20 rem;\n  text-align: center;\n  background-color: blue;\n  padding: 3rem;\n"]);
+
+  _templateObject = function _templateObject() {
+    return data;
+  };
+
+  return data;
+}
+
+
+
+var StyledFooter = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].footer(_templateObject());
 function Footer() {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("footer", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\xA9 Danger Clothing ", new Date().getFullYear()));
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(StyledFooter, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "\xA9 Danger Clothing ", new Date().getFullYear()));
 }
 
 /***/ }),
@@ -32886,10 +32913,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _styles_GlobalStyle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../styles/GlobalStyle */ "./src/styles/GlobalStyle.js");
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.esm.js");
 /* harmony import */ var _components_Footer__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/Footer */ "./src/components/Footer.js");
+/* harmony import */ var _styles_Typography__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../styles/Typography */ "./src/styles/Typography.js");
 
 
 function _templateObject2() {
-  var data = Object(_babel_runtime_helpers_esm_taggedTemplateLiteralLoose__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  background: white;\n  padding: 2rem;\n"]);
+  var data = Object(_babel_runtime_helpers_esm_taggedTemplateLiteralLoose__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  font-size: 3rem;\n  text-align: center;\n  padding-top: 1rem;\n"]);
 
   _templateObject2 = function _templateObject2() {
     return data;
@@ -32899,7 +32927,7 @@ function _templateObject2() {
 }
 
 function _templateObject() {
-  var data = Object(_babel_runtime_helpers_esm_taggedTemplateLiteralLoose__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  max-width: 1000px;\n  margin: 12rem auto 4rem auto;\n  margin-top: clamp(2rem, 10vw, 12rem);\n  background: white;\n  background-size: 80em;\n  padding: 5px;\n  padding: clamp(5px, 1vw, 25px);\n  box-shadow: 0 0 px 3px rgba(0, 0, 0, 0.044);\n  border: 5px solid white;\n  @media (max-width: 1100px) {\n    margin-left: 1.5rem;\n    margin-right: 1.5rem;\n  }\n"]);
+  var data = Object(_babel_runtime_helpers_esm_taggedTemplateLiteralLoose__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  max-width: 1000px;\n  margin: 12rem auto 4rem auto;\n  margin-top: clamp(2rem, 10vw, 12rem);\n  background: white;\n  background-size: 80em;\n  padding: 5px;\n  padding: clamp(5px, 1vw, 25px);\n  box-shadow: 0 0 px 3px rgba(0, 0, 0, 0.044);\n  border: 5px solid greenyellow;\n  @media (max-width: 1100px) {\n    margin-left: 1.5rem;\n    margin-right: 1.5rem;\n  }\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -32913,11 +32941,12 @@ function _templateObject() {
 
 
 
+
 var SiteBorderStyles = styled_components__WEBPACK_IMPORTED_MODULE_4__["default"].div(_templateObject());
-var ContentStyles = styled_components__WEBPACK_IMPORTED_MODULE_4__["default"].div(_templateObject2());
+var SiteHeader = styled_components__WEBPACK_IMPORTED_MODULE_4__["default"].div(_templateObject2());
 function Layout(_ref) {
   var children = _ref.children;
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_styles_GlobalStyle__WEBPACK_IMPORTED_MODULE_3__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(ContentStyles, null, " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(SiteBorderStyles, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Nav__WEBPACK_IMPORTED_MODULE_2__["default"], null), " ", children, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Footer__WEBPACK_IMPORTED_MODULE_5__["default"], null))));
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_styles_GlobalStyle__WEBPACK_IMPORTED_MODULE_3__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_styles_Typography__WEBPACK_IMPORTED_MODULE_6__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(SiteHeader, null, "Danger Clothing"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(SiteBorderStyles, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Nav__WEBPACK_IMPORTED_MODULE_2__["default"], null), " ", children, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Footer__WEBPACK_IMPORTED_MODULE_5__["default"], null)));
 }
 
 /***/ }),
@@ -32940,7 +32969,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function _templateObject() {
-  var data = Object(_babel_runtime_helpers_esm_taggedTemplateLiteralLoose__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  margin-bottom: 3rem;\n  color: blue ul {\n    margin: 0;\n    padding: 0;\n    text-align: center;\n    list-style: none;\n    display: grid;\n    grid-template-columns: 1fr 1fr auto 1fr 1fr;\n    grid-gap: 2rem;\n    align-items: center;\n    margin-top: -6rem;\n  }\n  li {\n    --rotate: -2deg;\n    transform: rotate(var(--rotate));\n    order: 1;\n    &:nth-child(1) {\n      --rotate: 1deg;\n    }\n    &:nth-child(2) {\n      --rotate: -2.5deg;\n    }\n    &:nth-child(4) {\n      --rotate: 2.5deg;\n    }\n    &:hover {\n      --rotate: 3deg;\n    }\n  }\n  a {\n    font-size: 3rem;\n    text-decoration: none;\n    &:hover {\n      color: var(--red);\n    }\n  }\n"]);
+  var data = Object(_babel_runtime_helpers_esm_taggedTemplateLiteralLoose__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  margin-bottom: 3rem;\n  color: blue ul {\n    margin: 0;\n    padding: 0;\n    text-align: center;\n    list-style: none;\n    display: grid;\n    grid-template-columns: 1fr 1fr auto 1fr 1fr;\n    grid-gap: 2rem;\n    align-items: center;\n    margin-top: -6rem;\n  }\n  li {\n    list-style-type: none;\n  }\n  a {\n    font-size: 3rem;\n    text-decoration: none;\n    &:hover {\n      color: var(--red);\n    }\n  }\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -32954,13 +32983,11 @@ function _templateObject() {
 
 var NavStyles = styled_components__WEBPACK_IMPORTED_MODULE_3__["default"].nav(_templateObject());
 function Nav() {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(NavStyles, null, " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(NavStyles, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_2__["Link"], {
     to: "/"
   }, "Home")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_2__["Link"], {
     to: "/store"
   }, "Store")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_2__["Link"], {
-    to: "/"
-  }, "LOGO")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_2__["Link"], {
     to: "/cart"
   }, "View Cart"))));
 }
@@ -32981,7 +33008,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function _templateObject() {
-  var data = Object(_babel_runtime_helpers_esm_taggedTemplateLiteralLoose__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n :root {\n    --red: #FF4949;\n    --black: #2E2E2E;\n    --yellow: #ffc600;\n    --white: #fff;\n    --grey: #efefef;\n  }\n  html {\n    background-size: 450px;\n    background-attachment: fixed;\n    font-size: 10px;\n  }\n\n  body {\n    font-size: 2rem;\n    max-width: 1000 px;\n    justify-content: center;\n\n  }\n\n  fieldset {\n    border-color: rgba(0,0,0,0.1);\n    border-width: 1px;\n  }\n\n  button {\n    background: var(--red);\n    color: white;\n    border: 0;\n    padding: 0.6rem 1rem;\n    border-radius: 2px;\n    cursor: pointer;\n    --cast: 2px;\n    box-shadow: var(--cast) var(--cast) 0 var(--grey);\n    text-shadow: 0.5px 0.5px 0 rgba(0,0,0,0.2);\n    transition: all 0.2s;\n    &:hover {\n      --cast: 4px;\n    }\n  }\n\n\n  /* Scrollbar Styles */\n  body::-webkit-scrollbar {\n    width: 12px;\n  }\n  html {\n    scrollbar-width: thin;\n    scrollbar-color: var(--red) var(--white);\n  }\n  body::-webkit-scrollbar-track {\n    background: var(--white);\n  }\n  body::-webkit-scrollbar-thumb {\n    background-color: var(--red) ;\n    border-radius: 6px;\n    border: 3px solid var(--white);\n  }\n\n  hr {\n    border: 0;\n    height: 8px;\n    background-size: 1500px;\n  }\n\n  img {\n    max-width: 100%;\n  }\n\n  .tilt {\n    transform: rotate(-2deg);\n    position: relative;\n    display: inline-block;\n  }\n\n"]);
+  var data = Object(_babel_runtime_helpers_esm_taggedTemplateLiteralLoose__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n :root {\n    --red: #FF4949;\n    --black: #2E2E2E;\n    --yellow: #ffc600;\n    --white: #fff;\n    --grey: #efefef;\n  }\n\n\n  html {\n    background-size: 450px;\n    background-attachment: fixed;\n    font-size: 10px;\n  }\n\n  body {\n    font-size: 2rem;\n    max-width: 1000 px;\n    justify-content: center;\n\n  }\n\n  fieldset {\n    border-color: rgba(0,0,0,0.1);\n    border-width: 1px;\n  }\n\n  button {\n    background: var(--red);\n    color: white;\n    border: 0;\n    padding: 0.6rem 1rem;\n    border-radius: 2px;\n    cursor: pointer;\n    --cast: 2px;\n    box-shadow: var(--cast) var(--cast) 0 var(--grey);\n    text-shadow: 0.5px 0.5px 0 rgba(0,0,0,0.2);\n    transition: all 0.2s;\n    &:hover {\n      --cast: 4px;\n    }\n  }\n\n\n  /* Scrollbar Styles */\n  body::-webkit-scrollbar {\n    width: 12px;\n  }\n  html {\n    scrollbar-width: thin;\n    scrollbar-color: var(--red) var(--white);\n  }\n  body::-webkit-scrollbar-track {\n    background: var(--white);\n  }\n  body::-webkit-scrollbar-thumb {\n    background-color: var(--red) ;\n    border-radius: 6px;\n    border: 3px solid var(--white);\n  }\n\n  hr {\n    border: 0;\n    height: 8px;\n    background-size: 1500px;\n  }\n\n  img {\n    max-width: 100%;\n  }\n\n\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -32993,6 +33020,38 @@ function _templateObject() {
 
 var GlobalStyles = Object(styled_components__WEBPACK_IMPORTED_MODULE_1__["createGlobalStyle"])(_templateObject());
 /* harmony default export */ __webpack_exports__["default"] = (GlobalStyles);
+
+/***/ }),
+
+/***/ "./src/styles/Typography.js":
+/*!**********************************!*\
+  !*** ./src/styles/Typography.js ***!
+  \**********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_helpers_esm_taggedTemplateLiteralLoose__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/taggedTemplateLiteralLoose */ "./node_modules/@babel/runtime/helpers/esm/taggedTemplateLiteralLoose.js");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.esm.js");
+/* harmony import */ var _assets_fonts_marker_woff__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../assets/fonts/marker.woff */ "./src/assets/fonts/marker.woff");
+/* harmony import */ var _assets_fonts_marker_woff__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_assets_fonts_marker_woff__WEBPACK_IMPORTED_MODULE_2__);
+
+
+function _templateObject() {
+  var data = Object(_babel_runtime_helpers_esm_taggedTemplateLiteralLoose__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  @font-face {\n    font-family: 'Permanent Marker';\n    src: url(", ");\n  }\n\n  html {\n      font-family: 'Permanent Marker'\n  }\n  "]);
+
+  _templateObject = function _templateObject() {
+    return data;
+  };
+
+  return data;
+}
+
+
+
+var Typography = Object(styled_components__WEBPACK_IMPORTED_MODULE_1__["createGlobalStyle"])(_templateObject(), _assets_fonts_marker_woff__WEBPACK_IMPORTED_MODULE_2___default.a);
+/* harmony default export */ __webpack_exports__["default"] = (Typography);
 
 /***/ }),
 

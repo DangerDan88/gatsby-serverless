@@ -3,6 +3,7 @@ import Nav from "./Nav";
 import GlobalStyles from "../styles/GlobalStyle";
 import styled from "styled-components";
 import Footer from "../components/Footer";
+import Typography from "../styles/Typography";
 
 const SiteBorderStyles = styled.div`
   max-width: 1000px;
@@ -30,6 +31,7 @@ export default function Layout({ children }) {
   return (
     <div>
       <GlobalStyles />
+      <Typography />
       <SiteHeader>Danger Clothing</SiteHeader>
       <SiteBorderStyles>
         <Nav /> {children}
