@@ -32878,7 +32878,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function _templateObject() {
-  var data = Object(_babel_runtime_helpers_esm_taggedTemplateLiteralLoose__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  max-width: 20 rem;\n  text-align: center;\n  background-color: blue;\n  padding: 3rem;\n"]);
+  var data = Object(_babel_runtime_helpers_esm_taggedTemplateLiteralLoose__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  max-width: 20 rem;\n  text-align: center;\n  background-color: black;\n  padding: 3rem;\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -32927,7 +32927,7 @@ function _templateObject2() {
 }
 
 function _templateObject() {
-  var data = Object(_babel_runtime_helpers_esm_taggedTemplateLiteralLoose__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  max-width: 1000px;\n  margin: 12rem auto 4rem auto;\n  margin-top: clamp(2rem, 10vw, 12rem);\n  background: white;\n  background-size: 80em;\n  padding: 5px;\n  padding: clamp(5px, 1vw, 25px);\n  box-shadow: 0 0 px 3px rgba(0, 0, 0, 0.044);\n  border: 5px solid greenyellow;\n  @media (max-width: 1100px) {\n    margin-left: 1.5rem;\n    margin-right: 1.5rem;\n  }\n"]);
+  var data = Object(_babel_runtime_helpers_esm_taggedTemplateLiteralLoose__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  max-width: 1000px;\n  margin: 12rem auto 4rem auto;\n  margin-top: clamp(2rem, 10vw, 12rem);\n  background: grey;\n  background-size: 80em;\n  padding: 5px;\n  padding: clamp(5px, 1vw, 25px);\n  box-shadow: 0 0 px 3px rgba(0, 0, 0, 0.044);\n  border: 5px solid red;\n  @media (max-width: 1100px) {\n    margin-left: 1.5rem;\n    margin-right: 1.5rem;\n  }\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -33008,7 +33008,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function _templateObject() {
-  var data = Object(_babel_runtime_helpers_esm_taggedTemplateLiteralLoose__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n :root {\n    --red: #FF4949;\n    --black: #2E2E2E;\n    --yellow: #ffc600;\n    --white: #fff;\n    --grey: #efefef;\n  }\n\n\n  html {\n    background-size: 450px;\n    background-attachment: fixed;\n    font-size: 10px;\n  }\n\n  body {\n    font-size: 2rem;\n    max-width: 1000 px;\n    justify-content: center;\n\n  }\n\n  fieldset {\n    border-color: rgba(0,0,0,0.1);\n    border-width: 1px;\n  }\n\n  button {\n    background: var(--red);\n    color: white;\n    border: 0;\n    padding: 0.6rem 1rem;\n    border-radius: 2px;\n    cursor: pointer;\n    --cast: 2px;\n    box-shadow: var(--cast) var(--cast) 0 var(--grey);\n    text-shadow: 0.5px 0.5px 0 rgba(0,0,0,0.2);\n    transition: all 0.2s;\n    &:hover {\n      --cast: 4px;\n    }\n  }\n\n\n  /* Scrollbar Styles */\n  body::-webkit-scrollbar {\n    width: 12px;\n  }\n  html {\n    scrollbar-width: thin;\n    scrollbar-color: var(--red) var(--white);\n  }\n  body::-webkit-scrollbar-track {\n    background: var(--white);\n  }\n  body::-webkit-scrollbar-thumb {\n    background-color: var(--red) ;\n    border-radius: 6px;\n    border: 3px solid var(--white);\n  }\n\n  hr {\n    border: 0;\n    height: 8px;\n    background-size: 1500px;\n  }\n\n  img {\n    max-width: 100%;\n  }\n\n\n"]);
+  var data = Object(_babel_runtime_helpers_esm_taggedTemplateLiteralLoose__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n\n\n\n  html {\n    background-size: 450px;\n    background-attachment: fixed;\n    font-size: 10px;\n  }\n\n  body {\n    font-size: 2rem;\n    max-width: 1000 px;\n    justify-content: center;\n    background-color: black\n\n  }\n\n  fieldset {\n    border-color: rgba(0,0,0,0.1);\n    border-width: 1px;\n  }\n\n  button {\n    color: white;\n    border: 0;\n    padding: 0.6rem 1rem;\n    border-radius: 2px;\n    cursor: pointer;\n    --cast: 2px;\n    text-shadow: 0.5px 0.5px 0 rgba(0,0,0,0.2);\n    transition: all 0.2s;\n    &:hover {\n      --cast: 4px;\n    }\n  }\n\n\n  /* Scrollbar Styles */\n  body::-webkit-scrollbar {\n    width: 12px;\n  }\n  html {\n    scrollbar-width: thin;\n    scrollbar-color: var(--red) var(--white);\n  }\n  body::-webkit-scrollbar-track {\n    background: var(--white);\n  }\n  body::-webkit-scrollbar-thumb {\n    background-color: var(--red) ;\n    border-radius: 6px;\n    border: 3px solid var(--white);\n  }\n\n  hr {\n    border: 0;\n    height: 8px;\n    background-size: 1500px;\n  }\n\n  img {\n    max-width: 100%;\n  }\n\n\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -33039,7 +33039,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function _templateObject() {
-  var data = Object(_babel_runtime_helpers_esm_taggedTemplateLiteralLoose__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  @font-face {\n    font-family: 'Permanent Marker';\n    src: url(", ");\n  }\n\n  html {\n      font-family: 'Permanent Marker'\n  }\n  "]);
+  var data = Object(_babel_runtime_helpers_esm_taggedTemplateLiteralLoose__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  @font-face {\n    font-family: 'Permanent Marker';\n    src: url(", ");\n  }\n\n  html {\n      font-family: 'Permanent Marker'\n    \n  }\n\n  body {\n      color: white;\n  }\n  "]);
 
   _templateObject = function _templateObject() {
     return data;

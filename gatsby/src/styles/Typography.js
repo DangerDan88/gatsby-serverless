@@ -10,6 +10,11 @@ const Typography = createGlobalStyle`
 
   html {
       font-family: 'Permanent Marker'
+    
+  }
+
+  body {
+      color: white;
   }
   `;
 
