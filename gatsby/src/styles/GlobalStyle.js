@@ -1,7 +1,9 @@
 import { createGlobalStyle } from "styled-components";
 
 const GlobalStyles = createGlobalStyle`
-
+:root {
+  --mainBg: #161515;
+}
 
 
   html {
@@ -14,7 +16,7 @@ const GlobalStyles = createGlobalStyle`
     font-size: 2rem;
     max-width: 1000 px;
     justify-content: center;
-    background-color: lightskyblue;
+    background-color: var(--mainBg);
 
   }
 

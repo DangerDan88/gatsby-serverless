@@ -27,7 +27,7 @@ const NavStyles = styled.nav`
   }
 
   .link {
-    color: blue;
+    color: black;
   }
 `;
 
@@ -42,13 +42,13 @@ export default function Nav() {
         </li>
         <li>
           <Link className="link" to="/store">
-            Store
+            Gallery
           </Link>
         </li>
 
         <li>
           <Link className="link" to="/cart">
-            View Cart
+            Book
           </Link>
         </li>
       </ul>

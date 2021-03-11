@@ -32917,7 +32917,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function _templateObject2() {
-  var data = Object(_babel_runtime_helpers_esm_taggedTemplateLiteralLoose__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  font-size: 3rem;\n  text-align: center;\n  padding-top: 1rem;\n"]);
+  var data = Object(_babel_runtime_helpers_esm_taggedTemplateLiteralLoose__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  font-size: 3rem;\n  text-align: center;\n  padding-top: 1rem;\n  color: cadetblue;\n"]);
 
   _templateObject2 = function _templateObject2() {
     return data;
@@ -32946,7 +32946,7 @@ var SiteBorderStyles = styled_components__WEBPACK_IMPORTED_MODULE_4__["default"]
 var SiteHeader = styled_components__WEBPACK_IMPORTED_MODULE_4__["default"].div(_templateObject2());
 function Layout(_ref) {
   var children = _ref.children;
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_styles_GlobalStyle__WEBPACK_IMPORTED_MODULE_3__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_styles_Typography__WEBPACK_IMPORTED_MODULE_6__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(SiteHeader, null, "Danger Clothing"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(SiteBorderStyles, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Nav__WEBPACK_IMPORTED_MODULE_2__["default"], null), " ", children, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Footer__WEBPACK_IMPORTED_MODULE_5__["default"], null)));
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_styles_GlobalStyle__WEBPACK_IMPORTED_MODULE_3__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_styles_Typography__WEBPACK_IMPORTED_MODULE_6__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(SiteHeader, null, "Danger Clothing"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(SiteBorderStyles, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Nav__WEBPACK_IMPORTED_MODULE_2__["default"], null), " ", children), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Footer__WEBPACK_IMPORTED_MODULE_5__["default"], null));
 }
 
 /***/ }),
@@ -32969,7 +32969,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function _templateObject() {
-  var data = Object(_babel_runtime_helpers_esm_taggedTemplateLiteralLoose__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  margin-bottom: 3rem;\n  color: blue ul {\n    margin: 0;\n    padding: 0;\n    text-align: center;\n    list-style: none;\n    display: grid;\n    grid-template-columns: 1fr 1fr auto 1fr 1fr;\n    grid-gap: 2rem;\n    align-items: center;\n    margin-top: -6rem;\n  }\n  li {\n    list-style-type: none;\n  }\n  a {\n    font-size: 3rem;\n    text-decoration: none;\n    &:hover {\n      color: var(--red);\n    }\n  }\n"]);
+  var data = Object(_babel_runtime_helpers_esm_taggedTemplateLiteralLoose__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  margin-bottom: 3rem;\n  ul {\n    margin: 0;\n    padding: 0;\n    text-align: center;\n    list-style: none;\n    display: grid;\n    grid-auto-flow: column;\n    grid-gap: 2rem;\n    align-items: center;\n    margin-top: -6rem;\n  }\n  li {\n    list-style-type: none;\n  }\n  a {\n    font-size: 3rem;\n    text-decoration: none;\n    &:hover {\n      color: whitesmoke;\n    }\n  }\n\n  .link {\n    color: blue;\n  }\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -32984,10 +32984,13 @@ function _templateObject() {
 var NavStyles = styled_components__WEBPACK_IMPORTED_MODULE_3__["default"].nav(_templateObject());
 function Nav() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(NavStyles, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+    className: "link",
     to: "/"
   }, "Home")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+    className: "link",
     to: "/store"
   }, "Store")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+    className: "link",
     to: "/cart"
   }, "View Cart"))));
 }
@@ -33008,7 +33011,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function _templateObject() {
-  var data = Object(_babel_runtime_helpers_esm_taggedTemplateLiteralLoose__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n\n\n\n  html {\n    background-size: 450px;\n    background-attachment: fixed;\n    font-size: 10px;\n  }\n\n  body {\n    font-size: 2rem;\n    max-width: 1000 px;\n    justify-content: center;\n    background-color: black\n\n  }\n\n  fieldset {\n    border-color: rgba(0,0,0,0.1);\n    border-width: 1px;\n  }\n\n  button {\n    color: white;\n    border: 0;\n    padding: 0.6rem 1rem;\n    border-radius: 2px;\n    cursor: pointer;\n    --cast: 2px;\n    text-shadow: 0.5px 0.5px 0 rgba(0,0,0,0.2);\n    transition: all 0.2s;\n    &:hover {\n      --cast: 4px;\n    }\n  }\n\n\n  /* Scrollbar Styles */\n  body::-webkit-scrollbar {\n    width: 12px;\n  }\n  html {\n    scrollbar-width: thin;\n    scrollbar-color: var(--red) var(--white);\n  }\n  body::-webkit-scrollbar-track {\n    background: var(--white);\n  }\n  body::-webkit-scrollbar-thumb {\n    background-color: var(--red) ;\n    border-radius: 6px;\n    border: 3px solid var(--white);\n  }\n\n  hr {\n    border: 0;\n    height: 8px;\n    background-size: 1500px;\n  }\n\n  img {\n    max-width: 100%;\n  }\n\n\n"]);
+  var data = Object(_babel_runtime_helpers_esm_taggedTemplateLiteralLoose__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n\n\n\n  html {\n    background-size: 450px;\n    background-attachment: fixed;\n    font-size: 10px;\n  }\n\n  body {\n    font-size: 2rem;\n    max-width: 1000 px;\n    justify-content: center;\n    background-color: lightskyblue;\n\n  }\n\n  fieldset {\n    border-color: rgba(0,0,0,0.1);\n    border-width: 1px;\n  }\n\n  button {\n    color: white;\n    border: 0;\n    padding: 0.6rem 1rem;\n    border-radius: 2px;\n    cursor: pointer;\n    --cast: 2px;\n    text-shadow: 0.5px 0.5px 0 rgba(0,0,0,0.2);\n    transition: all 0.2s;\n    &:hover {\n      --cast: 4px;\n    }\n  }\n\n\n  /* Scrollbar Styles */\n  body::-webkit-scrollbar {\n    width: 12px;\n  }\n  html {\n    scrollbar-width: thin;\n    scrollbar-color: var(--red) var(--white);\n  }\n  body::-webkit-scrollbar-track {\n    background: var(--white);\n  }\n  body::-webkit-scrollbar-thumb {\n    background-color: var(--red) ;\n    border-radius: 6px;\n    border: 3px solid var(--white);\n  }\n\n  hr {\n    border: 0;\n    height: 8px;\n    background-size: 1500px;\n  }\n\n  img {\n    max-width: 100%;\n  }\n\n\n"]);
 
   _templateObject = function _templateObject() {
     return data;

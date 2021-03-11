@@ -11,7 +11,7 @@ const StyledFooter = styled.footer`
 export default function Footer() {
   return (
     <StyledFooter>
-      <p>&copy; Danger Clothing {new Date().getFullYear()}</p>
+      <p>&copy; Savant Deux {new Date().getFullYear()}</p>
     </StyledFooter>
   );
 }

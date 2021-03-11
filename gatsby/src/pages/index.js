@@ -1,10 +1,16 @@
 import React from "react";
+import styled from "styled-components";
+
+const StyledHome = styled.div`
+  display: flex;
+  justify-content: center;
+`;
 
 function HomePage() {
   return (
-    <div>
-      <h1>Home page</h1>
-    </div>
+    <StyledHome>
+      <h1>Best Barber in Magna</h1>
+    </StyledHome>
   );
 }
 
